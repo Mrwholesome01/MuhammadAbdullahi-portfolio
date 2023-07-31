@@ -157,6 +157,11 @@ nav ul li a:hover::after {
     display: block;
 }
 
+.project {
+    text-decoration: none;
+    color: #ababab;
+}
+
 /* -----------------------services--------------------------- */
 
 #services {
@@ -206,6 +211,10 @@ nav ul li a:hover::after {
 .learn-more-app-design {
     display: none;
     margin: 10px 0;
+}
+
+.services-list div a.more-information {
+    display: none;
 }
 /* -----------------------------portfolio---------------------------------- */
 
@@ -459,4 +468,3 @@ nav .fa-solid {
         font-size: 15px;
     }
 }
-
