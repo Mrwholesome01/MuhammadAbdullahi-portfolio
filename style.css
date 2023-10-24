@@ -17,7 +17,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/dattijoeditedcropedimg.jpg);
+    background-image: url(images/dattijopicturefullscreen.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -403,7 +403,7 @@ nav .fa-solid {
     }
     
     #header {
-        background-image: url(images/dattijoeditedpicture.jpg);
+        background-image: url(images/datijopicturesmallscreen.jpg);
     }    
 
     .header-text {
