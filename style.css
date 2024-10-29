@@ -397,6 +397,18 @@ nav .fa-solid {
     display: none;
 }
 
+.specific-service {
+    position: relative;
+}
+
+.fa-solid.fa-x.close {
+/*    color: red;*/
+    display: none;
+    right: 15px;
+    font-size: 20px;
+    position: absolute;
+}
+
 @media only screen and (max-width:600px) {
     nav .fa-solid {
         display: block;
@@ -472,5 +484,38 @@ nav .fa-solid {
     .work img {
         height: auto;
     }
-        
+    
+    .container {
+        padding: 10px 10px;
+    }
+
+    .services-list div {
+        width: 45%;
+        padding: 17px;
+    }
+
+    .services-list div p {
+        display: none;
+    }
+
+    .services-list div h2 {
+        font-size: 15px;
+    }
+
+    .services-list div i {
+        font-size: 35px;
+    }
+
+    .services-list {
+        display: flex;
+        grid-gap: 25px;
+        margin-top: 50px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .fa-solid.fa-x.close {
+
+    }
 }
