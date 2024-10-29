@@ -510,7 +510,6 @@ nav .fa-solid {
         display: flex;
         grid-gap: 25px;
         margin-top: 50px;
-        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
     }
