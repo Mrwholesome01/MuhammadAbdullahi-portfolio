@@ -391,7 +391,6 @@ form .btn2 {
     margin-top: -40px;
     display: block ;
 }
-/* ------------------------------------CSS for small screens-------------------------------- */
 
 nav .fa-solid {
     display: none;
@@ -408,6 +407,12 @@ nav .fa-solid {
     font-size: 20px;
     position: absolute;
 }
+
+/* ------------------------------------CSS for small screens-------------------------------- */
+/* ------------------------------------CSS for small screens-------------------------------- */
+/* ------------------------------------CSS for small screens-------------------------------- */
+/* ------------------------------------CSS for small screens-------------------------------- */
+
 
 @media only screen and (max-width:600px) {
     nav .fa-solid {
@@ -510,6 +515,7 @@ nav .fa-solid {
         display: flex;
         grid-gap: 25px;
         margin-top: 50px;
+        /* justify-content: center; */
         flex-direction: row;
         flex-wrap: wrap;
     }
