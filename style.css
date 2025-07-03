@@ -162,6 +162,14 @@ nav ul li a:hover::after {
     color: #ababab;
 }
 
+#project > ul {
+    height: 56vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 /* -----------------------services--------------------------- */
 
 #services {
@@ -242,6 +250,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    object-fit: cover;
 }
 
 .layer {
@@ -292,6 +301,7 @@ nav ul li a:hover::after {
 
 .btn {
     display: block;
+    background-color: #080808;
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ff004f;
@@ -487,7 +497,7 @@ nav .fa-solid {
     }
 
     .work img {
-        height: auto;
+        height: 400px;
     }
     
     .container {
@@ -523,4 +533,8 @@ nav .fa-solid {
     .fa-solid.fa-x.close {
 
     }
+}
+
+.hidden {
+    display: none;
 }

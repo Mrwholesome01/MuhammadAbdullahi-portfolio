@@ -1,5 +1,22 @@
-var tabLinks = document.getElementsByClassName("tab-links");
-var tabContents = document.getElementsByClassName("tab-contents");
+const tabLinks = document.getElementsByClassName("tab-links");
+const tabContents = document.getElementsByClassName("tab-contents");
+
+const showMorebtn = document.querySelector(".btn")
+const workProject = document.querySelectorAll(".work")
+
+
+const showOtherProject= () => {
+    workProject.forEach((ele) => {
+        if (ele.classList.contains("show") === true) {
+            ele.classList.toggle("hidden")
+        }
+
+    })
+}
+
+showMorebtn.addEventListener("click", () => {
+    showOtherProject()
+})
 
 function opentab(tabName) {
     for(tabLink of tabLinks) {
